@@ -396,3 +396,24 @@ a {
         border-radius: 100px;
     }
 }
+
+@media (max-width: 550px) {
+    .navigation {
+        flex-direction: column;
+        height: 130px;
+        justify-content: space-around
+    }
+
+    .nav-ul {
+        width: 100vw;
+        min-width: 370px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .intro {
+        align-self: center;
+    }
+}
